@@ -1,0 +1,618 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9A6826911FEA0B2300A1742F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826901FEA0B2300A1742F /* AppDelegate.swift */; };
+		9A6826931FEA0B2300A1742F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826921FEA0B2300A1742F /* ViewController.swift */; };
+		9A6826961FEA0B2300A1742F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A6826941FEA0B2300A1742F /* Main.storyboard */; };
+		9A6826991FEA0B2300A1742F /* Manulife.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826971FEA0B2300A1742F /* Manulife.xcdatamodeld */; };
+		9A68269B1FEA0B2300A1742F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A68269A1FEA0B2300A1742F /* Assets.xcassets */; };
+		9A68269E1FEA0B2300A1742F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A68269C1FEA0B2300A1742F /* LaunchScreen.storyboard */; };
+		9A6826A91FEA0B2300A1742F /* ManulifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826A81FEA0B2300A1742F /* ManulifeTests.swift */; };
+		9A6826B41FEA0B2300A1742F /* ManulifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826B31FEA0B2300A1742F /* ManulifeUITests.swift */; };
+		9A6826C41FEA0BAF00A1742F /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826C31FEA0BAF00A1742F /* BaseViewController.swift */; };
+		9A6826C61FEA1B8300A1742F /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826C51FEA1B8300A1742F /* LoginViewController.swift */; };
+		9A6826C81FEA1EC800A1742F /* AccountsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826C71FEA1EC800A1742F /* AccountsViewController.swift */; };
+		9A6826CA1FEA200300A1742F /* ServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826C91FEA200300A1742F /* ServicesViewController.swift */; };
+		9A6826CF1FEA4BCF00A1742F /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826CE1FEA4BCF00A1742F /* ContactUsViewController.swift */; };
+		9A6826D11FEA4BF700A1742F /* MoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826D01FEA4BF700A1742F /* MoreViewController.swift */; };
+		9A6826D61FF5C83500A1742F /* Account.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826D51FF5C83500A1742F /* Account.swift */; };
+		9A6826DB1FF5F5BB00A1742F /* AccountCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826DA1FF5F5BB00A1742F /* AccountCell.swift */; };
+		9A6826DD1FF5FC3B00A1742F /* TransactionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826DC1FF5FC3B00A1742F /* TransactionsViewController.swift */; };
+		9A6826DF1FF72D2000A1742F /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826DE1FF72D2000A1742F /* Transaction.swift */; };
+		9A6826E11FF72D4A00A1742F /* TransactionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A6826E01FF72D4A00A1742F /* TransactionCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9A6826A51FEA0B2300A1742F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6826851FEA0B2300A1742F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A68268C1FEA0B2300A1742F;
+			remoteInfo = Manulife;
+		};
+		9A6826B01FEA0B2300A1742F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9A6826851FEA0B2300A1742F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9A68268C1FEA0B2300A1742F;
+			remoteInfo = Manulife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9A68268D1FEA0B2300A1742F /* Manulife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Manulife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6826901FEA0B2300A1742F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9A6826921FEA0B2300A1742F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9A6826951FEA0B2300A1742F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9A6826981FEA0B2300A1742F /* Manulife.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Manulife.xcdatamodel; sourceTree = "<group>"; };
+		9A68269A1FEA0B2300A1742F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9A68269D1FEA0B2300A1742F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9A68269F1FEA0B2300A1742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6826A41FEA0B2300A1742F /* ManulifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManulifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6826A81FEA0B2300A1742F /* ManulifeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManulifeTests.swift; sourceTree = "<group>"; };
+		9A6826AA1FEA0B2300A1742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6826AF1FEA0B2300A1742F /* ManulifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ManulifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A6826B31FEA0B2300A1742F /* ManulifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ManulifeUITests.swift; sourceTree = "<group>"; };
+		9A6826B51FEA0B2300A1742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A6826C31FEA0BAF00A1742F /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		9A6826C51FEA1B8300A1742F /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		9A6826C71FEA1EC800A1742F /* AccountsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountsViewController.swift; sourceTree = "<group>"; };
+		9A6826C91FEA200300A1742F /* ServicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ServicesViewController.swift; sourceTree = "<group>"; };
+		9A6826CE1FEA4BCF00A1742F /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
+		9A6826D01FEA4BF700A1742F /* MoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreViewController.swift; sourceTree = "<group>"; };
+		9A6826D51FF5C83500A1742F /* Account.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Account.swift; sourceTree = "<group>"; };
+		9A6826DA1FF5F5BB00A1742F /* AccountCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AccountCell.swift; sourceTree = "<group>"; };
+		9A6826DC1FF5FC3B00A1742F /* TransactionsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionsViewController.swift; sourceTree = "<group>"; };
+		9A6826DE1FF72D2000A1742F /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		9A6826E01FF72D4A00A1742F /* TransactionCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransactionCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9A68268A1FEA0B2300A1742F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6826A11FEA0B2300A1742F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6826AC1FEA0B2300A1742F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9A6826841FEA0B2300A1742F = {
+			isa = PBXGroup;
+			children = (
+				9A68268F1FEA0B2300A1742F /* Manulife */,
+				9A6826A71FEA0B2300A1742F /* ManulifeTests */,
+				9A6826B21FEA0B2300A1742F /* ManulifeUITests */,
+				9A68268E1FEA0B2300A1742F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9A68268E1FEA0B2300A1742F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9A68268D1FEA0B2300A1742F /* Manulife.app */,
+				9A6826A41FEA0B2300A1742F /* ManulifeTests.xctest */,
+				9A6826AF1FEA0B2300A1742F /* ManulifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9A68268F1FEA0B2300A1742F /* Manulife */ = {
+			isa = PBXGroup;
+			children = (
+				9A6826D91FF5F5A400A1742F /* View */,
+				9A6826D41FF5C77100A1742F /* Model */,
+				9A6826C11FEA0B3000A1742F /* Controller */,
+				9A6826901FEA0B2300A1742F /* AppDelegate.swift */,
+				9A6826941FEA0B2300A1742F /* Main.storyboard */,
+				9A68269A1FEA0B2300A1742F /* Assets.xcassets */,
+				9A68269C1FEA0B2300A1742F /* LaunchScreen.storyboard */,
+				9A68269F1FEA0B2300A1742F /* Info.plist */,
+				9A6826971FEA0B2300A1742F /* Manulife.xcdatamodeld */,
+			);
+			path = Manulife;
+			sourceTree = "<group>";
+		};
+		9A6826A71FEA0B2300A1742F /* ManulifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6826A81FEA0B2300A1742F /* ManulifeTests.swift */,
+				9A6826AA1FEA0B2300A1742F /* Info.plist */,
+			);
+			path = ManulifeTests;
+			sourceTree = "<group>";
+		};
+		9A6826B21FEA0B2300A1742F /* ManulifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9A6826B31FEA0B2300A1742F /* ManulifeUITests.swift */,
+				9A6826B51FEA0B2300A1742F /* Info.plist */,
+			);
+			path = ManulifeUITests;
+			sourceTree = "<group>";
+		};
+		9A6826C11FEA0B3000A1742F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				9A6826C31FEA0BAF00A1742F /* BaseViewController.swift */,
+				9A6826921FEA0B2300A1742F /* ViewController.swift */,
+				9A6826C51FEA1B8300A1742F /* LoginViewController.swift */,
+				9A6826C71FEA1EC800A1742F /* AccountsViewController.swift */,
+				9A6826DC1FF5FC3B00A1742F /* TransactionsViewController.swift */,
+				9A6826CE1FEA4BCF00A1742F /* ContactUsViewController.swift */,
+				9A6826C91FEA200300A1742F /* ServicesViewController.swift */,
+				9A6826D01FEA4BF700A1742F /* MoreViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		9A6826D41FF5C77100A1742F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				9A6826D51FF5C83500A1742F /* Account.swift */,
+				9A6826DE1FF72D2000A1742F /* Transaction.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		9A6826D91FF5F5A400A1742F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				9A6826DA1FF5F5BB00A1742F /* AccountCell.swift */,
+				9A6826E01FF72D4A00A1742F /* TransactionCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9A68268C1FEA0B2300A1742F /* Manulife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6826B81FEA0B2300A1742F /* Build configuration list for PBXNativeTarget "Manulife" */;
+			buildPhases = (
+				9A6826891FEA0B2300A1742F /* Sources */,
+				9A68268A1FEA0B2300A1742F /* Frameworks */,
+				9A68268B1FEA0B2300A1742F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Manulife;
+			productName = Manulife;
+			productReference = 9A68268D1FEA0B2300A1742F /* Manulife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9A6826A31FEA0B2300A1742F /* ManulifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6826BB1FEA0B2300A1742F /* Build configuration list for PBXNativeTarget "ManulifeTests" */;
+			buildPhases = (
+				9A6826A01FEA0B2300A1742F /* Sources */,
+				9A6826A11FEA0B2300A1742F /* Frameworks */,
+				9A6826A21FEA0B2300A1742F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6826A61FEA0B2300A1742F /* PBXTargetDependency */,
+			);
+			name = ManulifeTests;
+			productName = ManulifeTests;
+			productReference = 9A6826A41FEA0B2300A1742F /* ManulifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9A6826AE1FEA0B2300A1742F /* ManulifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9A6826BE1FEA0B2300A1742F /* Build configuration list for PBXNativeTarget "ManulifeUITests" */;
+			buildPhases = (
+				9A6826AB1FEA0B2300A1742F /* Sources */,
+				9A6826AC1FEA0B2300A1742F /* Frameworks */,
+				9A6826AD1FEA0B2300A1742F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9A6826B11FEA0B2300A1742F /* PBXTargetDependency */,
+			);
+			name = ManulifeUITests;
+			productName = ManulifeUITests;
+			productReference = 9A6826AF1FEA0B2300A1742F /* ManulifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9A6826851FEA0B2300A1742F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Manulife;
+				TargetAttributes = {
+					9A68268C1FEA0B2300A1742F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					9A6826A31FEA0B2300A1742F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A68268C1FEA0B2300A1742F;
+					};
+					9A6826AE1FEA0B2300A1742F = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9A68268C1FEA0B2300A1742F;
+					};
+				};
+			};
+			buildConfigurationList = 9A6826881FEA0B2300A1742F /* Build configuration list for PBXProject "Manulife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9A6826841FEA0B2300A1742F;
+			productRefGroup = 9A68268E1FEA0B2300A1742F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9A68268C1FEA0B2300A1742F /* Manulife */,
+				9A6826A31FEA0B2300A1742F /* ManulifeTests */,
+				9A6826AE1FEA0B2300A1742F /* ManulifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9A68268B1FEA0B2300A1742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A68269E1FEA0B2300A1742F /* LaunchScreen.storyboard in Resources */,
+				9A68269B1FEA0B2300A1742F /* Assets.xcassets in Resources */,
+				9A6826961FEA0B2300A1742F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6826A21FEA0B2300A1742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6826AD1FEA0B2300A1742F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9A6826891FEA0B2300A1742F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6826E11FF72D4A00A1742F /* TransactionCell.swift in Sources */,
+				9A6826D11FEA4BF700A1742F /* MoreViewController.swift in Sources */,
+				9A6826C61FEA1B8300A1742F /* LoginViewController.swift in Sources */,
+				9A6826DD1FF5FC3B00A1742F /* TransactionsViewController.swift in Sources */,
+				9A6826CA1FEA200300A1742F /* ServicesViewController.swift in Sources */,
+				9A6826931FEA0B2300A1742F /* ViewController.swift in Sources */,
+				9A6826DF1FF72D2000A1742F /* Transaction.swift in Sources */,
+				9A6826CF1FEA4BCF00A1742F /* ContactUsViewController.swift in Sources */,
+				9A6826D61FF5C83500A1742F /* Account.swift in Sources */,
+				9A6826C41FEA0BAF00A1742F /* BaseViewController.swift in Sources */,
+				9A6826911FEA0B2300A1742F /* AppDelegate.swift in Sources */,
+				9A6826991FEA0B2300A1742F /* Manulife.xcdatamodeld in Sources */,
+				9A6826DB1FF5F5BB00A1742F /* AccountCell.swift in Sources */,
+				9A6826C81FEA1EC800A1742F /* AccountsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6826A01FEA0B2300A1742F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6826A91FEA0B2300A1742F /* ManulifeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9A6826AB1FEA0B2300A1742F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9A6826B41FEA0B2300A1742F /* ManulifeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9A6826A61FEA0B2300A1742F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A68268C1FEA0B2300A1742F /* Manulife */;
+			targetProxy = 9A6826A51FEA0B2300A1742F /* PBXContainerItemProxy */;
+		};
+		9A6826B11FEA0B2300A1742F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9A68268C1FEA0B2300A1742F /* Manulife */;
+			targetProxy = 9A6826B01FEA0B2300A1742F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9A6826941FEA0B2300A1742F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A6826951FEA0B2300A1742F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9A68269C1FEA0B2300A1742F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9A68269D1FEA0B2300A1742F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9A6826B61FEA0B2300A1742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9A6826B71FEA0B2300A1742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9A6826B91FEA0B2300A1742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Manulife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.Manulife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		9A6826BA1FEA0B2300A1742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Manulife/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.Manulife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		9A6826BC1FEA0B2300A1742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ManulifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.ManulifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manulife.app/Manulife";
+			};
+			name = Debug;
+		};
+		9A6826BD1FEA0B2300A1742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ManulifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.ManulifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Manulife.app/Manulife";
+			};
+			name = Release;
+		};
+		9A6826BF1FEA0B2300A1742F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ManulifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.ManulifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Manulife;
+			};
+			name = Debug;
+		};
+		9A6826C01FEA0B2300A1742F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ManulifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.manulife.ManulifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Manulife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9A6826881FEA0B2300A1742F /* Build configuration list for PBXProject "Manulife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6826B61FEA0B2300A1742F /* Debug */,
+				9A6826B71FEA0B2300A1742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6826B81FEA0B2300A1742F /* Build configuration list for PBXNativeTarget "Manulife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6826B91FEA0B2300A1742F /* Debug */,
+				9A6826BA1FEA0B2300A1742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6826BB1FEA0B2300A1742F /* Build configuration list for PBXNativeTarget "ManulifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6826BC1FEA0B2300A1742F /* Debug */,
+				9A6826BD1FEA0B2300A1742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9A6826BE1FEA0B2300A1742F /* Build configuration list for PBXNativeTarget "ManulifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9A6826BF1FEA0B2300A1742F /* Debug */,
+				9A6826C01FEA0B2300A1742F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9A6826971FEA0B2300A1742F /* Manulife.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9A6826981FEA0B2300A1742F /* Manulife.xcdatamodel */,
+			);
+			currentVersion = 9A6826981FEA0B2300A1742F /* Manulife.xcdatamodel */;
+			path = Manulife.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9A6826851FEA0B2300A1742F /* Project object */;
+}

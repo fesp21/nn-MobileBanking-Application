@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<VariablesViewState
+   version = "1.0">
+   <ContextStates>
+      <ContextState
+         contextName = "AccountsViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:AccountsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.json2[indexPath.row][&quot;id&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.accountsDic[indexPath.row][&quot;id&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "accounts">
+            </PersistentString>
+            <PersistentString
+               value = "self.accounts">
+            </PersistentString>
+            <PersistentString
+               value = "self.items[indexPath.row][&quot;id&quot;]">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransactionsViewController.tableView(UITableView, cellForRowAt : IndexPath) -&gt; UITableViewCell:TransactionsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.transactions">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "TransactionsViewController.(fetchTransactions() -&gt; ()).(closure #1):TransactionsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "String(self.accountId)">
+            </PersistentString>
+            <PersistentString
+               value = "activity.transaction_description">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AccountsViewController.(fetchAccounts() -&gt; ()).(closure #1):AccountsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "dictionary[&quot;id&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "schedule[&quot;id&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "self.accounts">
+            </PersistentString>
+            <PersistentString
+               value = "actordict.value(forKey: &quot;id&quot;)">
+            </PersistentString>
+            <PersistentString
+               value = "accountsDic">
+            </PersistentString>
+            <PersistentString
+               value = " account[&quot;id&quot;]">
+            </PersistentString>
+            <PersistentString
+               value = "fetchedData">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "AccountsViewController.logOutClicked(Any) -&gt; ():AccountsViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "UserDefaults.standard.preferences.removeSuite">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+   </ContextStates>
+</VariablesViewState>
